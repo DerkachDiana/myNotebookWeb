@@ -1,18 +1,18 @@
 export const TextType = {
   title: {
     name: 'Title',
-    size: '40px',
+    size: '90px',
   },
   heading: {
     name: 'Heading',
-    size: '20px',
+    size: '50px',
   },
   subheading: {
     name: 'Subheading',
-    size: '15px',
+    size: '35px',
   },
   body: {
     name: 'Body',
-    size: '10px',
+    size: '20px',
   },
 };
