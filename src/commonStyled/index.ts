@@ -23,13 +23,13 @@ export const BackgroundStyled = styled.div`
   background-color: ${Colors.DARKBLUE};
   background-image: url(${BackgroundTemplates.forDark});
   padding: 20px 30px;
-  gap: 50px;
+  gap: 20px;
 `;
 
 export const TextStyled = styled.span<TextStyledProps>`
   color: ${props => props.color};
   font-size: ${props => props.textType};
-   text-align: ${props => props.align || 'left'};
+  text-align: ${props => props.align || 'left'};
 `;
 
 export const IconStyled = styled.div<IconStyledProps>`
@@ -37,4 +37,13 @@ export const IconStyled = styled.div<IconStyledProps>`
   background-size: cover;
   width: ${props => props.width};
   height: ${props => props.height};
+`;
+
+export const CenterFormaterStyled = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 `;

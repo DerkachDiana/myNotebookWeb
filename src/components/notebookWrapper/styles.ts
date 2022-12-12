@@ -12,12 +12,12 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  width: 200px;
+  width: 160px;
 `;
 
 export const CoverStyled = styled.div<CoverProps>`
-  width: 200px;
-  height: 250px;
+  width: 150px;
+  height: 200px;
   border: 5px solid ${Colors.GOLD};
   border-radius: 5px;
   background-image: url(${props => props.cover});

@@ -6,4 +6,7 @@ export default {
     notValidEmail: 'Email is not valid',
     serverNotStarted: 'Server is not started',
   },
+  placeholder: {
+    NOTEBOOKS_NAME: 'Write notebook`s name'
+  }
 };

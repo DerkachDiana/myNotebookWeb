@@ -1,7 +1,7 @@
 export const TextType = {
   title: {
     name: 'Title',
-    size: '90px',
+    size: '80px',
   },
   heading: {
     name: 'Heading',

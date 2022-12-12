@@ -3,4 +3,5 @@ export const Icons = {
   addButton: require('./icons/addButtonBig.png'),
   loginFrame: require('./icons/LoginFrameBig.png'),
   inputFrame: require('./icons/inputFrame.png'),
+  acceptButton: require('./icons/acceptButton.png'),
 };
