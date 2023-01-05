@@ -18,12 +18,13 @@ interface IconStyledProps {
 export const BackgroundStyled = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  max-height: max-content;
+  height: 100vh;
   background-color: ${Colors.DARKBLUE};
   background-image: url(${BackgroundTemplates.forDark});
   padding: 20px 30px;
   gap: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
 `;
 
 export const TextStyled = styled.span<TextStyledProps>`

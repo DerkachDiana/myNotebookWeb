@@ -37,9 +37,10 @@ export const AddNotebookModal = ({ setIsModalOpen }: AddNotebookModalProps) => {
                         color={Colors.WHITE}
                     />
                 </InputFrameStyled>
+                <CenterFormaterStyled>
                 <ChooseBlockContainer text={'Choose cover'} pictures={[]}/>
                 <ChooseBlockContainer text={'Choose background'} pictures={[]}/>
-                <CenterFormaterStyled>
+
                     <IconStyled
                         image={Icons.acceptButton}
                         width={'120px'}

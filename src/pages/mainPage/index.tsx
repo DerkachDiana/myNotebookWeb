@@ -15,8 +15,9 @@ const MainPage = () => {
         setIsModalOpen(!isModalOpen);
     }
     return (
-        <BackgroundStyled>
+        <>
             { isModalOpen && (<AddNotebookModal setIsModalOpen={setIsModalOpen}/>) }
+        <BackgroundStyled>
             <Header>
                 <TextStyled color={Colors.WHITE} textType={TextType.title.size}>
                     Notebooks
@@ -27,6 +28,15 @@ const MainPage = () => {
                 <NotebookContainerStyled>
                     <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
                     <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
+                    <NotebookWrapper cover={Covers.pink} name={'myNotebookName'}/>
                 </NotebookContainerStyled>
                 <IconStyled
                     image={Icons.addButton}
@@ -35,6 +45,7 @@ const MainPage = () => {
                     onClick={displayModal} />
             </CenterFormaterStyled>
         </BackgroundStyled>
+        </>
     );
 };
 

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Colors } from '../../constants/colors';
 
-
 interface CoverProps {
     color: string;
     cover: string;

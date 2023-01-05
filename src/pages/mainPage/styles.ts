@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Icons } from '../../assets/Icons';
 import { TextType } from '../../constants/textType';
+import { Colors } from '../../constants/colors';
 
 interface InputStyledProps {
     color: string;
@@ -26,12 +27,28 @@ export const NotebookContainerStyled = styled.div`
   justify-content: start;
   gap: 70px;
   width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
+  overflow-x: auto;
+  
+  ::-webkit-scrollbar {
+    height: 10px;
+    background: ${Colors.WHITE};
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: ${Colors.GOLD};
+    border-radius: 20px;
+    
+  }
+  ::-webkit-scrollback-track {
+    margin-block: 5px;
+  }
 `;
 
 export const AbsoluteContainerStyled = styled.div`
   position: absolute;
   width: 100vw;
+  min-height: 100vh;
 `;
 
 export const InputFrameStyled = styled.div`
