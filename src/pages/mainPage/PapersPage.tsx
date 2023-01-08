@@ -3,8 +3,9 @@ import React from 'react'
 const PapersPage = () => {
   return (
     <div>
-      <div>PapersPage</div>
-      <div></div>
+      <div>header</div>
+      <div>body</div>
+      <div>button</div>
     </div>
   )
 }
